@@ -1574,8 +1574,9 @@ checksum = "384b8ab6d37215f3c5301a95a4accb5d64aa607f1fcb26a11b5303878451b4fe"
 
 [[package]]
 name = "opendal"
-version = "0.55.0"
-source = "git+https://github.com/apache/opendal#2f3b9807fcc7f5bd94edfd9a529be526b75ed459"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "97b31d3d8e99a85d83b73ec26647f5607b80578ed9375810b6e44ffa3590a236"
 dependencies = [
  "ctor",
  "opendal-core",
@@ -1596,8 +1597,9 @@ dependencies = [
 
 [[package]]
 name = "opendal-core"
-version = "0.55.0"
-source = "git+https://github.com/apache/opendal#2f3b9807fcc7f5bd94edfd9a529be526b75ed459"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1849dd2687e173e776d3af5fce1ba3ae47b9dd37a09d1c4deba850ef45fe00ca"
 dependencies = [
  "anyhow",
  "base64",
@@ -1624,8 +1626,9 @@ dependencies = [
 
 [[package]]
 name = "opendal-layer-concurrent-limit"
-version = "0.55.0"
-source = "git+https://github.com/apache/opendal#2f3b9807fcc7f5bd94edfd9a529be526b75ed459"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "048b1b29c503263bdd80a9afe46a68cd02ea9bd361185b1feab4b151078998e9"
 dependencies = [
  "futures",
  "http",
@@ -1635,8 +1638,9 @@ dependencies = [
 
 [[package]]
 name = "opendal-layer-logging"
-version = "0.55.0"
-source = "git+https://github.com/apache/opendal#2f3b9807fcc7f5bd94edfd9a529be526b75ed459"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d2645adc988b12eda106e2679ae529facfbbaa868ceb706f6f8125c6af15c47b"
 dependencies = [
  "log",
  "opendal-core",
@@ -1644,8 +1648,9 @@ dependencies = [
 
 [[package]]
 name = "opendal-layer-retry"
-version = "0.55.0"
-source = "git+https://github.com/apache/opendal#2f3b9807fcc7f5bd94edfd9a529be526b75ed459"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4eac134ffa4ddda6131a640a84a5315996424b9416c85052f8c64c1a33b70ad4"
 dependencies = [
  "backon",
  "log",
@@ -1654,8 +1659,9 @@ dependencies = [
 
 [[package]]
 name = "opendal-layer-timeout"
-version = "0.55.0"
-source = "git+https://github.com/apache/opendal#2f3b9807fcc7f5bd94edfd9a529be526b75ed459"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "619586ab7480c2e3009f6d18eabab18957bc094778fd130bcc38924970a90f4c"
 dependencies = [
  "opendal-core",
  "tokio",
@@ -1663,8 +1669,9 @@ dependencies = [
 
 [[package]]
 name = "opendal-service-azblob"
-version = "0.55.0"
-source = "git+https://github.com/apache/opendal#2f3b9807fcc7f5bd94edfd9a529be526b75ed459"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7452bf3ec61cfd81ac9ad9ada17825931e9e371d44a045c6bfab9596c0a2ac3b"
 dependencies = [
  "base64",
  "bytes",
@@ -1683,8 +1690,9 @@ dependencies = [
 
 [[package]]
 name = "opendal-service-azure-common"
-version = "0.55.0"
-source = "git+https://github.com/apache/opendal#2f3b9807fcc7f5bd94edfd9a529be526b75ed459"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ffb0e45d6c8dcf66ce2da20e241bcb80e6e540e109a4ff20f318f6c9b4c54e0c"
 dependencies = [
  "http",
  "opendal-core",
@@ -1692,8 +1700,9 @@ dependencies = [
 
 [[package]]
 name = "opendal-service-dropbox"
-version = "0.55.0"
-source = "git+https://github.com/apache/opendal#2f3b9807fcc7f5bd94edfd9a529be526b75ed459"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b056efe0090510c279797cb7c7f3de69edcdd098954313f960a1c608e5563cc3"
 dependencies = [
  "bytes",
  "http",
@@ -1705,8 +1714,9 @@ dependencies = [
 
 [[package]]
 name = "opendal-service-fs"
-version = "0.55.0"
-source = "git+https://github.com/apache/opendal#2f3b9807fcc7f5bd94edfd9a529be526b75ed459"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cf0be0417abeeb0053376d816b90fceb9ca98f20dfb54ebf1f2a282729f83663"
 dependencies = [
  "bytes",
  "log",
@@ -1718,8 +1728,9 @@ dependencies = [
 
 [[package]]
 name = "opendal-service-gcs"
-version = "0.55.0"
-source = "git+https://github.com/apache/opendal#2f3b9807fcc7f5bd94edfd9a529be526b75ed459"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "70a49477a10163431896d106136117f5670717f9c9e49cf6f710528800c6633a"
 dependencies = [
  "async-trait",
  "bytes",
@@ -1738,8 +1749,9 @@ dependencies = [
 
 [[package]]
 name = "opendal-service-gdrive"
-version = "0.55.0"
-source = "git+https://github.com/apache/opendal#2f3b9807fcc7f5bd94edfd9a529be526b75ed459"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f0ed6de0f71303b32636396242cb894bc025531d8573109fc975e33958c9863b"
 dependencies = [
  "bytes",
  "http",
@@ -1752,8 +1764,9 @@ dependencies = [
 
 [[package]]
 name = "opendal-service-onedrive"
-version = "0.55.0"
-source = "git+https://github.com/apache/opendal#2f3b9807fcc7f5bd94edfd9a529be526b75ed459"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9b86a9de33bd9e1d46d36afd5efe7a68fc9d04c04aed4951ac2301090d7e0d49"
 dependencies = [
  "bytes",
  "http",
@@ -1767,8 +1780,9 @@ dependencies = [
 
 [[package]]
 name = "opendal-service-s3"
-version = "0.55.0"
-source = "git+https://github.com/apache/opendal#2f3b9807fcc7f5bd94edfd9a529be526b75ed459"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9dadddeb9bb50b0d30927dd914c298c4ddca47e4c1cfa7674d311f0cf9b051c8"
 dependencies = [
  "base64",
  "bytes",
@@ -1787,8 +1801,9 @@ dependencies = [
 
 [[package]]
 name = "opendal-service-webdav"
-version = "0.55.0"
-source = "git+https://github.com/apache/opendal#2f3b9807fcc7f5bd94edfd9a529be526b75ed459"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "830c4267834761149bd275d85780c8d44dcef187416ed392c8ee5c69222b4eb1"
 dependencies = [
  "anyhow",
  "bytes",
@@ -1802,8 +1817,9 @@ dependencies = [
 
 [[package]]
 name = "opendal-service-webhdfs"
-version = "0.55.0"
-source = "git+https://github.com/apache/opendal#2f3b9807fcc7f5bd94edfd9a529be526b75ed459"
+version = "0.56.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4aba5abc997c3457776c25d022d27f9f825398c7187866ad4715c762e04b6000"
 dependencies = [
  "anyhow",
  "bytes",
